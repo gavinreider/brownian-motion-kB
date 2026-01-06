@@ -1,6 +1,6 @@
 # Brownian Motion Analysis of Boltzmann's Constant
 
-These python scripts help detect beads in microscope images and videos, track their Brownian motion, and estimate Boltzmann's constant. Data and plots that are generated are organized in `data/` and `pictures-videos/`.
+These python scripts detect 1 micron diameter beads in microscope images and videos, track their Brownian motion, and estimate Boltzmann's constant. Data and plots that are generated are organized in `data/` and `pictures-videos/`.
 
 ## Layout
 - `code/` - analysis scripts
@@ -18,20 +18,20 @@ pip install -r code/requirements.txt
 ```
 
 ## Usage
-1. Track videos:
+Track videos:
    ```bash
    cd code
    python track_movement.py
    ```
    This outputs per-video tracks (`data/tracks_<video>.csv`) and trajectory plots (`pictures-videos/trajectories_<video>.png`).
 
-2. Compute velocities and kB from tracks:
+Compute velocities and kB from tracks:
    ```bash
    python trajectory_velocities.py
    ```
    This produces `data/velocities_<video>.csv` and `data/summary_kB.csv` with kB estimates for each video.
 
-3. Static depth series:
+Static depth series:
    ```bash
    python count_beads.py
    python estimate_kB.py
