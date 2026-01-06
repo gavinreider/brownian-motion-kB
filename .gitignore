@@ -1,2 +1,15 @@
-# macOS cruft
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw videos (too large for GitHub; keep locally or LFS)
+pictures-videos/Brownian Motion Videos/*.avi
