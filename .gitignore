@@ -1,5 +1,2 @@
-# Ignore large raw videos (kept locally, not tracked)
-pictures-videos/Brownian Motion Videos/*.avi
-
 # macOS cruft
 .DS_Store
