@@ -10,6 +10,3 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Raw videos (too large for GitHub; keep locally or LFS)
-pictures-videos/Brownian Motion Videos/*.avi
